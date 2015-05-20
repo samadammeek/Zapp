@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="sam.tour.guide"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".StartWithMaskName">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:label="@string/app_name" android:name="sam.intents.ImageIntent"></activity>
+<activity android:name="sam.intents.AudioIntent"></activity>
+<activity android:name="sam.intents.WebviewIntent"></activity>
+<activity android:name="Start"></activity>
+</application>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+  <uses-permission android:name="android.permission.CAMERA" /> 
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"></uses-permission>
+
+
+
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>
+
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+</manifest> 

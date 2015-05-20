@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Lake District Field Guide</string>
+    <string name="app_name">Lake District Field Guide</string>
+<string name="play_label">Play</string>
+<string name="stop_label">Stop</string>
+</resources>

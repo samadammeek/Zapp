@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+
+<EditText android:layout_width="match_parent" android:text="/sdcard/Tour Guide/POI Masks/POI_mask.asc" android:layout_height="wrap_content" android:id="@+id/filePOIPath"></EditText>
+<EditText android:layout_width="match_parent" android:text="/sdcard/Tour Guide/Rasters/raster2.asc" android:layout_height="wrap_content" android:id="@+id/fileRasterPath"></EditText>
+
+
+
+
+
+
+
+<FrameLayout android:layout_width="match_parent" android:id="@+id/FrameLayout02" android:layout_height="220dp"></FrameLayout><FrameLayout android:layout_width="wrap_content" android:layout_gravity="center|bottom" android:id="@+id/FrameLayout01" android:layout_height="wrap_content">
+
+<Button android:gravity="center" android:layout_width="match_parent" android:text="Start Program" android:id="@+id/startButton" android:layout_height="match_parent"></Button>
+
+</FrameLayout>
+
+
+</LinearLayout>
